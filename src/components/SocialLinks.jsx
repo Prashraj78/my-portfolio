@@ -12,7 +12,7 @@ const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: "https://www.linkedin.com/in/aryanraj0836/",
+            href: "https://www.linkedin.com/in/prashant-patil-56b580229/",
             style: "rounded-tr-md",
         },
         {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
                 GitHub <FaGithub size={30} />
             </>
             ),
-            href: "https://github.com/anonymgit",
+            href: "https://github.com/prashraj78",
         },
         {
             id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
                 Mail <HiOutlineMail size={30} />
             </>
             ),
-            href: "mailto:aryanraj0836@gmail.com",
+            href: "mailto:prashantrajputaaaa@gmail.com",
         },
         {
             id: 4,
@@ -40,7 +40,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30} />
             </>
             ),
-            href: "../assets/Aryan_resume.pdf",
+            href: "https://drive.google.com/file/d/1XNx0Aqx_PzE0Lp8AqEZpcyjfLW5whbvV/view?usp=drive_link",
             style: "rounded-br-md",
             download: true,
         },

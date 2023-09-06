@@ -4,14 +4,9 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import Angular from "../assets/Angular.png";
-import Java from "../assets/java.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import python from "../assets/python.png";
-import cpp from "../assets/cpp.png";
-import php from "../assets/php.png";
-import linux from "../assets/linux.png";
+
 
 const Experience = () => {
   const techs = [
@@ -50,20 +45,8 @@ const Experience = () => {
       style: "shadow-sky-400",
       progressPercentage:50,
     },
-    {
-      id: 6,
-      src: Angular,
-      title: "Angular",
-      style: "shadow-white",
-      progressPercentage:80,
-    },
-    {
-      id: 7,
-      src: Java,
-      title: "Java",
-      style: "shadow-pink-400",
-      progressPercentage:90,
-    },
+   
+   
     {
       id: 8,
       src: github,
@@ -71,40 +54,15 @@ const Experience = () => {
       style: "shadow-gray-400",
       progressPercentage:88,
     },
-    {
-      id: 9,
-      src: python,
-      title: "Python",
-      style: "shadow-gray-400",
-      progressPercentage:90,
-    },
-    {
-      id: 10,
-      src: php,
-      title: "Php",
-      style: "shadow-gray-400",
-      progressPercentage:90,
-    },
-    {
-      id: 10,
-      src: cpp,
-      title: "C++",
-      style: "shadow-gray-400",
-      progressPercentage:95,
-    },
-    {
-      id: 11,
-      src: linux,
-      title: "linux",
-      style: "shadow-gray-400",
-      progressPercentage:70,
-    },
+ 
+ 
+ 
   ];
 
   return (
     <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full  "
+      name="experience  "
+      className="bg-gradient-to-b from-gray-800  mt-16 to-black w-full  "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
