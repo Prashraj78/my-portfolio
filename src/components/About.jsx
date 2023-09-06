@@ -27,6 +27,7 @@ const About = () => {
           Let's connect, collaborate, and create something extraordinary together! ✨
         </p>
       </div>
+      
     </div> 
   );
 };
