@@ -8,8 +8,7 @@ const Contact = () => {
         email: '',
         message: '',
     });
-    const isButtonDisabled = formData.name.length === 0 || formData.email.length===0 || formData.message.length === 0;
-    ;
+    const isButtonDisabled = formData.name.length === 0 || formData.email.length === 0 || formData.message.length === 0;
 
     const { name, email, message } = formData;
 
@@ -18,13 +17,13 @@ const Contact = () => {
         setFormData({ ...formData, [name]: value });
     };
 
- 
+
 
     const handleFormSubmit = () => {
-        if (formData.name.length === 0 || formData.email.length===0 || formData.message.length === 0) {
-        
+        if (formData.name.length === 0 || formData.email.length === 0 || formData.message.length === 0) {
+
             console.log("data is empty");
-          }
+        }
     };
 
 
